@@ -1,0 +1,9 @@
+# Configuração para auto-assign
+addAssignees: true
+
+# Lista de usuários para serem assinados automaticamente
+assignees:
+  - julianostroschon
+
+# Número de revisores a serem adicionados (opcional)
+numberOfReviewers: 0
