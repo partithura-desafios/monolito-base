@@ -1,8 +1,0 @@
-name = "monolito-base"
-compatibility_date = "2024-01-01"
-
-[site]
-bucket = "./dist"
-
-[build]
-command = "yarn install && yarn build"
