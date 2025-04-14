@@ -10,5 +10,12 @@ export default defineConfig({
     quasar({
       sassVariables: 'src/quasar-variables.sass'
     })
-  ]
+  ],
+  css: {
+    preprocessorOptions: {
+      sass: {
+        javascriptEnabled: true
+      }
+    }
+  }
 })
