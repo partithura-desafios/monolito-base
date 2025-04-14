@@ -41,7 +41,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/kv-asset-handler@npm:0.4.0":
+"@cloudflare/kv-asset-handler@npm:0.4.0, @cloudflare/kv-asset-handler@npm:^0.4.0":
   version: 0.4.0
   resolution: "@cloudflare/kv-asset-handler@npm:0.4.0"
   dependencies:
@@ -1233,6 +1233,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "client@workspace:."
   dependencies:
+    "@cloudflare/kv-asset-handler": "npm:^0.4.0"
     "@quasar/extras": "npm:^1.16.12"
     "@quasar/vite-plugin": "npm:^1.7.0"
     "@vitejs/plugin-vue": "npm:^5.1.4"
