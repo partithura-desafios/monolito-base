@@ -11,6 +11,16 @@ export default defineConfig({
       sassVariables: 'src/quasar-variables.sass'
     })
   ],
+  build: {
+    target: 'esnext',
+    outDir: 'dist',
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
+  },
   css: {
     preprocessorOptions: {
       sass: {
