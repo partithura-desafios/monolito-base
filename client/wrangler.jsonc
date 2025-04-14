@@ -1,0 +1,11 @@
+{
+  "name": "monolito-base",
+  "compatibility_date": "2025-04-14",
+  "assets": {
+    "directory": "./dist"
+  },
+  "build": {
+    "command": "yarn install && yarn build",
+    "output": "dist"
+  }
+}
