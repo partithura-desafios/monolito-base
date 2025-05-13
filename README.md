@@ -60,7 +60,7 @@ Adoramos receber contribuições! Aqui está como você pode ajudar:
 - Faça um fork deste repositório
 - Clone para sua máquina local
 ```bash
-git clone https://github.com/seu-usuario/monolito-base.git
+git clone git@github.com:partithura-desafios/monolito-base.git
 ```
 
 ### 2. 🌿 Crie sua Branch
